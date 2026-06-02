@@ -65,7 +65,7 @@ Camera Input → YOLOv8 Detection → Agentic Decision Layer → Navigation/Secu
 AI_VISION_SYSTEM/
 │
 ├── app.py
-├── stream.py
+├── streamlit.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 ### Run Application
 
 ```bash
-streamlit run stream.py
+streamlit run streamlit.py
 ```
 
 ---
@@ -113,13 +113,6 @@ streamlit run stream.py
 * Mobile application support.
 * Advanced activity recognition.
 * Multi-camera support.
-
----
-
-## Team Members
-
-* Mamun
-* Team Member 2
 
 ---
 
